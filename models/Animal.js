@@ -17,7 +17,7 @@ const AnimalSchema = new mongoose.Schema({
     species: {
         type: String,
         required: true,
-        enum: ['cat', ' dog']
+        enum: ['cat', 'dog']
     },
     description: String
 })
